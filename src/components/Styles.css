@@ -1,0 +1,93 @@
+.input {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.InputBox {
+    padding: .75rem 1.5rem;
+    width: 90%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .4);
+    transition: .2s all ease-in-out;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.InputBox:focus {
+    box-shadow: 0 0 1px 6px rgba(0, 0, 0, .4);
+    outline: none;
+}
+
+.SubmitButton {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .4);
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+    background: tan;
+    margin: .5rem;
+}
+
+.SubmitButton:hover {
+    background: rgb(195, 152, 97);
+    color: white;
+    border: none;
+}
+
+.SubmitButton:active {
+    background: rgb(179, 117, 37);
+    transform: scale(.75);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
+}
+
+.ToDoList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ToDo {
+    background: tan;
+    margin: .75rem;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    justify-content: space-between;
+    display: flex;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+.ToDo:focus {
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, .4);
+}
+
+.Icon {
+    transition: .2s all ease-in-out;
+    padding: .5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.Icon:hover {
+    color: white;
+}
+
+.ActualIcon {
+    transition: .2s all ease-in-out;
+}
+
+.ActualIcon:active {
+    transform: scale(.75);
+}
